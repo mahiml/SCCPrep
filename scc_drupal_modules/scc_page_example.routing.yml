@@ -1,0 +1,12 @@
+page_example_description:
+  path: '/scc_prep/page_example'
+  defaults:
+    _controller: '\Drupal\scc_page_example\Controller\PageExampleController::description'
+  requirements:
+    _access: 'TRUE'
+page_example_simple:
+  path: '/scc_prep/page_example/simple'
+  defaults:
+    _controller: '\Drupal\scc_page_example\Controller\PageExampleController::simple'
+  requirements:
+    _permission: 'access simple page'
