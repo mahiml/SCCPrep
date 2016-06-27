@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="cssTest.css">
+<title>Insert title here</title>
+</head>
+<body>
+<ul id="genus_examples">
+    <li>Cats
+        <ul>
+            <li>Panthera</li>
+            <li>Felis</li>
+            <li>Neofelis</li>
+        </ul>
+    </li>
+    <li>Apes
+        <ul>
+            <li>Pongo</li>
+            <li>Pan</li>
+            <li>Homo</li>
+        </ul>
+    </li>
+</ul>
+<h5>Clouded leopards</h5>
+<p>Clouded leopards are cats that belong to the genus Neofelis.</p>
+<p>There are two extant species: Neofelis nebulosa and Neofelis diardi.</p>
+
+<button onClick="oncl">Try it</button>
+
+<script>
+function oncl() {
+    alert(this);
+	setTimeout(function(){alert(this);}, 1000);
+}
+
+</script>
+
+
+</body>
+</html>
